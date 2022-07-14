@@ -1,0 +1,117 @@
+/* SECTION HEADER */
+body {
+    background-color: #f5f5f5;
+}
+
+.header {
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.header figure{
+    margin: 0;
+}
+
+.header-logo {
+    height: 70px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons figure{
+    margin: 0;
+}
+
+.header-icons-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* END SECTION HEADER */
+
+/* SECTION HISTORIES */
+
+.histories {
+    display: flex;
+    overflow-x: scroll;
+    gap: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.histories-history {
+    width: 70px;
+}
+
+.histories-history figcaption {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.histories-history figure{
+    width: 100%;
+    text-align: center;
+}
+
+.histories-history-image {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* END SECTION HISTORIES */
+
+/* SECTION POSTS */
+
+.posts-post {
+    background-color: white;
+}
+
+.posts-post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.posts-post-header figure {
+    margin: 0;
+    width: 44px;
+}
+
+.posts-post-header p {
+    margin-left: 10px;
+}
+
+.posts-post-header figure:last-child {
+    margin-left: auto;
+}
+
+
+.posts-post-header-photo {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.posts-post-body {
+    max-width: 100%;
+    margin: 0;
+}
+
+.posts-post-body img {
+    max-width: 100%;
+}
+
+/* END SECTION POSTS */
+
+@media (min-width: 600px) {
+    .histories {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
