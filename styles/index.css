@@ -82,6 +82,7 @@
 
 .posts-post-header p {
     margin-left: 10px;
+    text-transform: uppercase;
 }
 
 .posts-post-header figure:last-child {
