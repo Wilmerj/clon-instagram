@@ -1,8 +1,4 @@
 /* SECTION HEADER */
-body {
-    background-color: yellow;
-}
-
 .header {
     border-bottom: 1px solid #eee;
     display: flex;
